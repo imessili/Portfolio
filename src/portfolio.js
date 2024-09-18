@@ -110,9 +110,7 @@ const skills = [
   'C',
   'C++',
   'SQL',
-  'C++',
-  'C++',
-  'C++',
+  'Selenium',
 ]
 
 const contact = {
