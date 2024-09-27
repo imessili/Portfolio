@@ -1,15 +1,13 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
+  homepage: 'https://imessili.github.io/Portfolio/',
   title: 'IM',
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: 'Islem Messili',
   role: 'Student Looking For An Intership In Data',
   description:
-    "I am a second-year Master's student in Computer Science, seeking professional experiences and a paid end-of-study internship in 2025, ideally in the field of Data. My goal is to find an internship as a Data Engineer or a Data Scientist with a possibility of pre-employment.",
+    "I’m a second-year Master's student in Computer Science, actively seeking professional experience and a paid end-of-study internship in 2025, ideally in Data Engineering or Data Science. My goal is to secure an internship with potential for pre-employment in a dynamic, data-driven environment.",
   resume: 'https://example.com',
   social: {
     linkedin: 'https://www.linkedin.com/in/islem-messili/',
@@ -18,13 +16,11 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: 'Predicting the NBA Defensive Player of the Year Using Machine Learning & Web Scraping',
     description:
       'This project uses machine learning to predict the DPOY winner based on player and team statistics, using data extraction and cleaning.',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['Machine Learning', 'Python', 'Selenium','Web Scraping'],
     sourceCode: 'https://github.com/imessili/Predicting-the-NBA-s-Defensive-Player-of-the-Year-DPOY-Machine-Learning-Web-Scraping',
     livePreview: 'https://github.com/imessili/Predicting-the-NBA-s-Defensive-Player-of-the-Year-DPOY-Machine-Learning-Web-Scraping',
   },
@@ -32,7 +28,7 @@ const projects = [
     name: 'Sales Data Visualization with GraphQL and D3.js',
     description:
       'A containerized sales data visualization project utilizing MongoDB, React, and GraphQL. The system features a MongoDB database for sales data, a React-based UI, and a GraphQL server with associated resolvers.',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['SASS', 'TypeScript', 'React','Docker'],
     sourceCode: 'https://github.com/imessili/Data_visualisation_Web_app',
     livePreview: 'https://github.com/imessili/Data_visualisation_Web_app',
   },
@@ -40,7 +36,7 @@ const projects = [
     name: 'Databases: Multidimensional Modeling and Analysis',
     description:
       'A project that includes ETL (Extract, Transform, Load) processes using Talend and Mondrian OLAP Server, designed to create and manage OLAP cubes to facilitate data analysis and reporting.',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['Talend', 'SQLite', 'ETL', 'Mondrian OLAP Server'],
     sourceCode: 'https://github.com/imessili/ETL_Talend_OLAP_CUBE',
     livePreview: 'https://github.com/imessili/ETL_Talend_OLAP_CUBE',
   },
@@ -48,7 +44,7 @@ const projects = [
     name: 'DealFinder',
     description:
       '"DealFinder" is a full-stack E-commerce web application that utilizes the MERN (MongoDB, Express, React, Node.js) stack to create a user-friendly and intuitive e-commerce platform.',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['SASS', 'Redux', 'MERN Stack','MongoDB','Postman'],
     sourceCode: 'https://github.com/imessili/DealFinder-Ecommerce-MERN-PFE',
     livePreview: 'https://github.com/imessili/DealFinder-Ecommerce-MERN-PFE',
   },
@@ -56,65 +52,72 @@ const projects = [
     name: 'Java Paint App & Shape Game Using MVC & Other Patterns',
     description:
       'A Java-based paint application using the MVC pattern,it allows users to create and manipulate drawings, and includes a feature where users can play a game of drawing shapes.',
-    stack: ['SASS', 'TypeScript', 'React'],
+    stack: ['Java', 'Java Swing', 'Design Patterns'],
     sourceCode: 'https://github.com/imessili/Java-Paint-Shape-Game-MVC-and-Other-Patterns',
     livePreview: 'https://github.com/imessili/Java-Paint-Shape-Game-MVC-and-Other-Patterns',
   },
   {
-    name: 'Projects Completed During My Bachelor Studies',
+    name: 'Steamtape.com Automatique Views Increase',
     description:
-      'Projects I worked on such as an Arithmetic Expression Evaluator in C, a Stock Management Application in Java, a GCD Calculator in Assembly, a Custom Language Compiler, Network Configuration and Process Control in Linux, a Text Editor in Delphi, and Information Extraction.',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com/imessili/BachelorStudiesProjects',
-    livePreview: 'https://github.com/imessili/BachelorStudiesProjects',
+      'This project is a tool developed to boost views through automated processes. Utilizing Selenium with the Chrome driver, Python scripting, this tool efficiently increases video views and user engagement by simulating real user interactions.',
+    stack: ['Python', 'Selenium', 'Javascript'],
+    sourceCode: 'https://github.com/imessili/steamtape.com_views_increase',
+    livePreview: 'https://github.com/imessili/steamtape.com_views_increase',
   },
   {
     name: 'RSA Algorithm Python Implementation',
     description:
-      'Python implementation of RSA algorithm for secure data encryption and decryption.',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A Python implementation of the RSA algorithm for secure encryption and decryption using public and private keys, commonly applied in messaging and digital signatures.',
+    stack: ['Python', 'SageMath'],
     sourceCode: 'https://github.com/imessili/RSA_Algorithm_Implemantation_python',
     livePreview: 'https://github.com/imessili/RSA_Algorithm_Implemantation_python',
   },
   {
     name: 'A Star Python Implementation',
     description:
-      'A Python implementation of the A* algorithm for efficient pathfinding in graphs.',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'A Python implementation of the A* algorithm for efficient pathfinding in graphs, combining actual and estimated costs to find the shortest path. Commonly used in navigation, robotics, and games to optimize search time.',
+    stack: ['Python', 'Graphs'],
     sourceCode: 'https://github.com/imessili/A_star_python',
     livePreview: 'https://github.com/imessili/A_star_python',
   },
   {
-    name: 'Steamtape.com Automatique Views Increase',
+    name: 'Projects Completed During My Bachelor Studies',
     description:
-      'This project is a tool developed to boost views through automated processes. Utilizing Selenium with the Chrome driver, Python scripting, this tool efficiently increases video views and user engagement by simulating real user interactions.',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com/imessili/steamtape.com_views_increase',
-    livePreview: 'https://github.com/imessili/steamtape.com_views_increase',
+      'Projects I worked on such as an Arithmetic Expression Evaluator in C, a Stock Management Application in Java, a GCD Calculator in Assembly, a Custom Language Compiler, Network Configuration and Process Control, and Information Extraction.',
+    stack: ['C', 'Assembly', 'Java', 'Python', 'Linux'],
+    sourceCode: 'https://github.com/imessili/BachelorStudiesProjects',
+    livePreview: 'https://github.com/imessili/BachelorStudiesProjects',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
+  'Php',
+  'Docker',
   'Talend',
-  'React',
+  'MongoDB',
+  'Spark',
+  'MERN Stack',
   'Redux',
+  'Linux',
   'SASS',
   'Java',
   'Git',
   'Python',
+  'Pytorch',
   'C',
   'C++',
   'SQL',
-  'Selenium',
+  'Postman',
+  'Machine Learning',
+  'Web Scraping',
+  'Automatisation',
+  'NLP',
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'messiliislem@mail.com',
 }
 
