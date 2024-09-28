@@ -47,3 +47,31 @@ textarea {
   min-width: 500px;
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .section__title {
+    font-size: 1.5rem; /* Adjust title size */
+  }
+
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    min-width: auto; /* Allow inputs to take full width */
+  }
+
+  textarea {
+    min-height: 150px; /* Adjust textarea height for small screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .section__title {
+    font-size: 1.25rem; /* Further adjust title size */
+  }
+
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    padding: 0.5rem; /* Adjust padding for smaller screens */
+  }
+}
