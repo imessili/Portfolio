@@ -1,5 +1,5 @@
 const header = {
-  homepage: 'https://imessili.github.io/Portfolio/',
+  homepage: '.',
   title: 'IM',
 }
 
