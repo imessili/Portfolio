@@ -13,7 +13,8 @@
 
 .about__desc {
   font-size: 1rem;
-  max-width: 600px;
+  max-width: 625px;
+  text-align: justify;
 }
 
 .about__desc,

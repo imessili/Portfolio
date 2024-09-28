@@ -5,9 +5,9 @@ const header = {
 
 const about = {
   name: 'Islem Messili',
-  role: 'Student Looking For An Intership In Data',
+  role: 'Student Seeking an Internship in the Field of Data',
   description:
-    "I’m a second-year Master's student in Computer Science, actively seeking professional experience and a paid end-of-study internship in 2025, ideally in Data Engineering or Data Science. My goal is to secure an internship with potential for pre-employment in a dynamic, data-driven environment.",
+    "As a second-year Master's student in Computer Science, I am seeking an end-of-study internship of 4 to 6 months, starting in February 2025, ideally in Data Engineering or Data Science. My goal is to gain professional experience in a dynamic, data-driven environment with potential for future-employment.",
   resume: '/cv_islem_messili.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/islem-messili/',
@@ -19,7 +19,7 @@ const projects = [
   {
     name: 'Predicting the NBA Defensive Player of the Year Using Machine Learning & Web Scraping',
     description:
-      'This project uses machine learning to predict the DPOY winner based on player and team statistics, using data extraction and cleaning.',
+      'This project uses machine learning, data extraction and data cleaning to predict the DPOY winner based on player, team and opponent statistics.',
     stack: ['Machine Learning', 'Python', 'Selenium','Web Scraping'],
     sourceCode: 'https://github.com/imessili/Predicting-the-NBA-s-Defensive-Player-of-the-Year-DPOY-Machine-Learning-Web-Scraping',
     livePreview: 'https://github.com/imessili/Predicting-the-NBA-s-Defensive-Player-of-the-Year-DPOY-Machine-Learning-Web-Scraping',
@@ -27,7 +27,7 @@ const projects = [
   {
     name: 'Sales Data Visualization with GraphQL and D3.js',
     description:
-      'A containerized sales data visualization project utilizing MongoDB, React, and GraphQL. The system features a MongoDB database for sales data, a React-based UI, and a GraphQL server with associated resolvers.',
+      'A containerized sales data visualization project utilizing Docker, MongoDB, React, and GraphQL. The system features a MongoDB database for sales data, a React-based UI, and a GraphQL server with associated resolvers.',
     stack: ['SASS', 'TypeScript', 'React','Docker'],
     sourceCode: 'https://github.com/imessili/Data_visualisation_Web_app',
     livePreview: 'https://github.com/imessili/Data_visualisation_Web_app',
@@ -59,7 +59,7 @@ const projects = [
   {
     name: 'Steamtape.com Automatique Views Increase',
     description:
-      'This project is a tool developed to boost views through automated processes. Utilizing Selenium with the Chrome driver, Python scripting, this tool efficiently increases video views and user engagement by simulating real user interactions.',
+      'This project is a tool developed to boost views through automated processes. Using multiple technologies it efficiently increases video views and user engagement by simulating real user interactions.',
     stack: ['Python', 'Selenium', 'Javascript'],
     sourceCode: 'https://github.com/imessili/steamtape.com_views_increase',
     livePreview: 'https://github.com/imessili/steamtape.com_views_increase',
@@ -83,7 +83,7 @@ const projects = [
   {
     name: 'Projects Completed During My Bachelor Studies',
     description:
-      'Projects I worked on such as an Arithmetic Expression Evaluator in C, a Stock Management Application in Java, a GCD Calculator in Assembly, a Custom Language Compiler, Network Configuration and Process Control, and Information Extraction.',
+      'Projects I worked on such as an Arithmetic Expression Evaluator in C, a Stock Management Application in Java, a Custom Language Compiler, Network Configuration and Process Control, and Information Extraction.',
     stack: ['C', 'Assembly', 'Java', 'Python', 'Linux', 'Flex & Bison'],
     sourceCode: 'https://github.com/imessili/BachelorStudiesProjects',
     livePreview: 'https://github.com/imessili/BachelorStudiesProjects',
