@@ -26,8 +26,27 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
+    // Combine the details into one message
+    const combinedMessage = `
+      **Name:** ${formData.userName}
+      **Email:** ${formData.userEmail}
+      **Company:** ${formData.companyName}
+      
+      **Message:** 
+      ${formData.message}
+    `;
+
+    const templateParams = {
+      from_name: formData.userName,
+      from_email: formData.userEmail,
+      message: combinedMessage, 
+      to_name: 'Islem'          
+    };
+
+    console.log('Template Params:', templateParams); // Log the parameters
+
     emailjs
-      .sendForm('service_1yy4v2t', 'template_c3szh1f', e.target, 'csX3HUXQ48SluKZD7')
+      .send('service_1yy4v2t', 'template_c3szh1f', templateParams, 'csX3HUXQ48SluKZD7')
       .then(
         () => {
           console.log('SUCCESS!');
