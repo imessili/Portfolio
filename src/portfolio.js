@@ -5,7 +5,7 @@ const header = {
 
 const about = {
   name: 'Islem Messili',
-  role: 'Data Enthusiast Seeking a Junior Position or Apprenticeship in the Field of Data',
+  role: 'Data Enthusiast Seeking a Junior Position or Apprenticeship',
   description:
     "I hold a Master's degree in Computer Science and am actively seeking a junior position or apprenticeship in Data Engineering or Data Science. My goal is to apply and deepen my skills in a data-driven environment, contribute to impactful projects, and grow professionally within a forward-thinking team.",
   resume: '/cv_islem_messili.pdf',
@@ -16,6 +16,15 @@ const about = {
 }
 
 const projects = [
+    {
+  name: 'OpenSky Flight-Data Streaming ETL Pipeline (work in progress)',
+  description:
+    'A real-time data-engineering workflow that pulls flight data from the OpenSky Network API, publishes the records to Apache Kafka, processes and enriches the stream with PySpark Structured Streaming, and persists both raw datasets in MongoDB and PostgreSQL. Apache Airflow orchestrates hourly batch jobs that handle ingestion',
+  stack: ['Apache Airflow', 'Apache Kafka', 'Apache Spark', 'Python', 'MongoDB', 'PostgreSQL','Docker'
+  ],
+  sourceCode: 'https://github.com/imessili/OpenSky_API_ETL_Airflow_Spark_Kafka_MongoDB_PostgreSQL',
+  livePreview: 'https://github.com/imessili/OpenSky_API_ETL_Airflow_Spark_Kafka_MongoDB_PostgreSQL'
+  },
   {
   name: 'OpenWeather ETL Pipeline with Apache Airflow',
   description:
@@ -87,6 +96,14 @@ const projects = [
     stack: ['Java', 'Java Swing', 'Design Patterns'],
     sourceCode: 'https://github.com/imessili/Java-Paint-Shape-Game-MVC-and-Other-Patterns',
     livePreview: 'https://github.com/imessili/Java-Paint-Shape-Game-MVC-and-Other-Patterns',
+  },
+  {
+  name: 'PyTorch Neural Networks Manipulation',
+  description:
+    'A hands-on collection of Jupyter notebooks that build, train, and experiment with both fully connected and convolutional neural networks in PyTorch.',
+  stack: ['PyTorch', 'Python', 'Jupyter Notebook', 'NumPy', 'Matplotlib'],
+  sourceCode: 'https://github.com/imessili/Pytorch_neural_networks_manipulation-',
+  livePreview: 'https://github.com/imessili/Pytorch_neural_networks_manipulation-'
   },
   {
     name: 'Steamtape.com Automatique Views Increase',
