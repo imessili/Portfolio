@@ -7,7 +7,7 @@ const about = {
   name: 'Islem Messili',
   role: 'Data Enthusiast Seeking a Junior Position or Apprenticeship',
   description:
-    "I hold a Master's degree in Computer Science and am actively seeking a junior position or apprenticeship in Data Engineering or Data Science. My goal is to apply and deepen my skills in a data-driven environment, contribute to impactful projects, and grow professionally within a forward-thinking team.",
+    "I hold a Master's degree in Computer Science and I am actively seeking a junior position or apprenticeship in Data Engineering or Data Science. My goal is to apply and deepen my skills in a data-driven environment, contribute to impactful projects, and grow professionally within a forward-thinking team.",
   resume: '/cv_islem_messili.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/islem-messili/',
