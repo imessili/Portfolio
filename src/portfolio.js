@@ -5,9 +5,9 @@ const header = {
 
 const about = {
   name: 'Islem Messili',
-  role: 'Student Seeking an Internship in the Field of Data',
+  role: 'Data Enthusiast Seeking a Junior Position or Apprenticeship in the Field of Data',
   description:
-    "As a second-year Master's student in Computer Science, I am seeking an end-of-study internship of 4 to 6 months, starting in February 2025, ideally in Data Engineering or Data Science. My goal is to gain professional experience in a dynamic, data-driven environment with potential for future-employment.",
+    "I hold a Master's degree in Computer Science and am actively seeking a junior position or apprenticeship in Data Engineering or Data Science. My goal is to apply and deepen my skills in a data-driven environment, contribute to impactful projects, and grow professionally within a forward-thinking team.",
   resume: '/cv_islem_messili.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/islem-messili/',
@@ -16,6 +16,38 @@ const about = {
 }
 
 const projects = [
+  {
+  name: 'OpenWeather ETL Pipeline with Apache Airflow',
+  description:
+    'An hourly ETL pipeline that extracts real-time weather data for European cities using the OpenWeatherMap API, transforms it with Python, and loads it into a PostgreSQL database. The workflow is orchestrated using Apache Airflow and fully containerized with Docker for consistent deployment.',
+  stack: ['Apache Airflow', 'Python', 'PostgreSQL', 'Docker', 'OpenWeatherMap API', 'Pandas'],
+  sourceCode: 'https://github.com/imessili/openWeather_ETL_Airflow',
+  livePreview: 'https://github.com/imessili/openWeather_ETL_Airflow',
+  },
+  {
+  name: 'Sports Betting Outcome Prediction & Integrity Analysis',
+  description:
+    'A machine-learning and web-scraping project that collects historical football odds from OddsPortal, cleans and enriches the data, and trains predictive models to forecast match outcomes and flag suspicious patterns that could indicate match-fixing. The workflow is implemented in Python notebooks and includes systematic model–quality assessment.',
+  stack: ['Python', 'Pandas', 'scikit-learn', 'Selenium', 'Jupyter', 'Web Scraping'],
+  sourceCode: 'https://github.com/imessili/Sports_Betting_Analysis_Project',
+  livePreview: 'https://github.com/imessili/Sports_Betting_Analysis_Project'
+  },
+  {
+  name: 'Music Generation with Vanilla & Wasserstein GANs',
+  description:
+    'A generative-AI project that trains both Vanilla and Wasserstein GAN architectures on the JSB Chorales dataset to compose harmonically rich polyphonic music. The pipeline preprocesses MIDI files, runs training in Jupyter notebooks, and converts the generated note sequences back into playable MIDI tracks.',
+  stack: ['Python', 'PyTorch', 'Jupyter Notebook', 'GANs', 'MIDI'],
+  sourceCode: 'https://github.com/imessili/Music_Generation_Using_GAN',
+  livePreview: 'https://github.com/imessili/Music_Generation_Using_GAN'
+  },
+  {
+  name: 'Interactive Sales Analysis Dashboard with Power BI & SQL',
+  description:
+    'Built with AdventureWorks 2019 data, this project turns static internet-sales reports into a dynamic Power BI dashboard.',
+  stack: ['Power BI', 'SQL Server', 'AdventureWorks DW', 'Excel'],
+  sourceCode: 'https://github.com/imessili/PowerBI_SQL_Sales_Analysis_Project',
+  livePreview: 'https://github.com/imessili/PowerBI_SQL_Sales_Analysis_Project'
+  },
   {
     name: 'Predicting the NBA Defensive Player of the Year Using Machine Learning & Web Scraping',
     description:
@@ -97,6 +129,12 @@ const skills = [
   'Php',
   'SASS',
   'Docker',
+  'Airflow'
+  'AWS EC2',
+  'AWS ECS',
+  'AWS Redshift',
+  'AWS S3',
+  'Kafka'
   'Talend',
   'Spark',
   'Databricks',
