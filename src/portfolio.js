@@ -129,12 +129,12 @@ const skills = [
   'Php',
   'SASS',
   'Docker',
-  'Airflow'
+  'Airflow',
   'AWS EC2',
   'AWS ECS',
   'AWS Redshift',
   'AWS S3',
-  'Kafka'
+  'Kafka',
   'Talend',
   'Spark',
   'Databricks',
